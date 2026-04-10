@@ -1,0 +1,42 @@
+{
+  "name": "context-cartographer",
+  "version": "0.1.0",
+  "description": "Explore existing repositories, infer architecture, and maintain a high-signal PROJECT_CONTEXT.md for future work.",
+  "author": {
+    "name": "Yasser Nabil",
+    "email": "todo@update-me.dev",
+    "url": "https://github.com/YasserMickey"
+  },
+  "homepage": "https://github.com/YasserMickey/agents-foundry",
+  "repository": "https://github.com/YasserMickey/agents-foundry",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "agent",
+    "repo-onboarding",
+    "documentation",
+    "architecture"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Context Cartographer",
+    "shortDescription": "Explore a repo and build PROJECT_CONTEXT.md",
+    "longDescription": "Use Context Cartographer to inspect an existing repository, infer the architecture and developer workflow, and leave behind a concise PROJECT_CONTEXT.md that future engineers or AI sessions can trust.",
+    "developerName": "Yasser Nabil",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/YasserMickey/agents-foundry",
+    "privacyPolicyURL": "https://github.com/YasserMickey/agents-foundry",
+    "termsOfServiceURL": "https://github.com/YasserMickey/agents-foundry",
+    "defaultPrompt": [
+      "Explore this existing repo, infer how it works, and create or update PROJECT_CONTEXT.md without changing product code."
+    ],
+    "brandColor": "#0F766E",
+    "composerIcon": "./assets/context-cartographer-small.svg",
+    "logo": "./assets/context-cartographer-logo.svg",
+    "screenshots": []
+  }
+}
