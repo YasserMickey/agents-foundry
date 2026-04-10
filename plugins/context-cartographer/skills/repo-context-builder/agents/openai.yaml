@@ -1,0 +1,6 @@
+interface:
+  display_name: "Context Cartographer"
+  short_description: "Explore an existing repo and build PROJECT_CONTEXT.md"
+  icon_small: "./assets/context-cartographer-small.svg"
+  icon_large: "./assets/context-cartographer-logo.svg"
+  default_prompt: "Use $repo-context-builder to inspect this existing repository, infer the architecture and workflow, and create or update PROJECT_CONTEXT.md without changing product code."
