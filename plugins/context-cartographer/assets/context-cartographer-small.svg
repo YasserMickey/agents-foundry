@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Context Cartographer icon">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#155E75"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <path d="M18 18h20c5.523 0 10 4.477 10 10v18H28c-5.523 0-10-4.477-10-10V18Z" fill="#F8FAFC" opacity="0.94"/>
+  <path d="M28 18h18v28H28c-4.418 0-8-3.582-8-8V26c0-4.418 3.582-8 8-8Z" fill="none" stroke="#0F172A" stroke-width="2.5"/>
+  <path d="M26 26h14M26 32h14M26 38h9" stroke="#0F766E" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="45" cy="45" r="9" fill="#F59E0B"/>
+  <path d="m49.5 49.5 6 6" stroke="#F8FAFC" stroke-width="3" stroke-linecap="round"/>
+</svg>
