@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Context Cartographer logo">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#164E63"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="180" rx="28" fill="url(#bg)"/>
+  <g transform="translate(28 28)">
+    <rect x="0" y="0" width="92" height="124" rx="18" fill="#F8FAFC" opacity="0.95"/>
+    <path d="M22 28h48M22 48h48M22 68h48M22 88h28" stroke="#0F766E" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="88" cy="104" r="22" fill="#F59E0B"/>
+    <path d="m99 115 17 17" stroke="#F8FAFC" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <text x="144" y="74" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Context</text>
+  <text x="144" y="110" fill="#CCFBF1" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Cartographer</text>
+  <text x="144" y="138" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="14">Repository onboarding agent for durable project context</text>
+</svg>
