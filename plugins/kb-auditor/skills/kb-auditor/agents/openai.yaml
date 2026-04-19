@@ -1,0 +1,4 @@
+interface:
+  display_name: "KB Auditor"
+  short_description: "Audit help docs for gaps and clarity"
+  default_prompt: "Use $kb-auditor to audit these documentation pages and produce a remediation report."
