@@ -1,0 +1,43 @@
+{
+  "name": "kb-auditor",
+  "version": "0.1.0",
+  "description": "Audit knowledge bases, help centers, and platform documentation for clarity, completeness, consistency, structure, and maintainability.",
+  "author": {
+    "name": "Yasser Nabil",
+    "email": "todo@update-me.dev",
+    "url": "https://github.com/YasserMickey"
+  },
+  "homepage": "https://github.com/YasserMickey/agents-foundry",
+  "repository": "https://github.com/YasserMickey/agents-foundry",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "agent",
+    "documentation",
+    "knowledge-base",
+    "audit",
+    "help-center"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "KB Auditor",
+    "shortDescription": "Audit help docs for gaps and clarity",
+    "longDescription": "Use KB Auditor to review knowledge bases, help center articles, platform manuals, and user guides. It produces prioritized documentation audit reports that surface clarity issues, missing prerequisites, inconsistent terminology, structure problems, and maintainability risks.",
+    "developerName": "Yasser Nabil",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/YasserMickey/agents-foundry",
+    "privacyPolicyURL": "https://github.com/YasserMickey/agents-foundry",
+    "termsOfServiceURL": "https://github.com/YasserMickey/agents-foundry",
+    "defaultPrompt": [
+      "Audit these documentation pages and produce a remediation report.",
+      "Review this help center for clarity and missing information.",
+      "Find consistency issues across this user guide."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}

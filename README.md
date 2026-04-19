@@ -18,18 +18,25 @@ Maps an existing repository, infers how it works, and creates or updates `PROJEC
 
 Location: `plugins/context-cartographer`
 
+### KB Auditor
+
+Audits knowledge bases, help center articles, platform manuals, and user guides for clarity, completeness, consistency, structure, and maintainability.
+
+Location: `plugins/kb-auditor`
+
 ## Repository Layout
 
 - `.agents/plugins/marketplace.json`: repo-local plugin marketplace for Codex
 - `plugins/`: installable plugin packages
 - `plugins/context-cartographer/skills/repo-context-builder/`: the first reusable onboarding skill
+- `plugins/kb-auditor/skills/kb-auditor/`: documentation audit and remediation reporting skill
 
 ## Install In Codex
 
 1. Open this repository in Codex.
 2. Point Codex at the repo-local marketplace in `.agents/plugins/marketplace.json` if needed.
-3. Install or enable the `context-cartographer` plugin.
-4. Use the starter prompt from the plugin, or invoke the skill directly.
+3. Install or enable the plugin you want to use.
+4. Use the starter prompt from the plugin, or invoke its skill directly.
 
 ## Design Principles
 
